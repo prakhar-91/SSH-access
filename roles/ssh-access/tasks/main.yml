@@ -1,9 +1,9 @@
 ---
 
-- name: Include add user
+- name: Include Add User
   import_tasks: grant.yml
   when: action == "grant"
  
-- name: Include remove user
+- name: Include Remove User
   import_tasks: revoke.yml
   when: action == "revoke"
