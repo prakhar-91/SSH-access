@@ -1,0 +1,10 @@
+[instances]
+instance1
+instance2
+instance3
+
+
+
+[instances:vars]
+user_name=prakhar
+user_des="Development Team User"
